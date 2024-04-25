@@ -1458,7 +1458,8 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 15px 0 0 15px;
+						/* padding: 15px 0 0 15px; */
+						padding: 80px 0 0 0;
 					}
 
 					.row.gtr-uniform {
@@ -2118,9 +2119,9 @@ input, select, textarea {
 			margin: 0;
 		}
 
-			#top .image img {
+			/* #top .image img {
 				border-radius: 100%;
-			}
+			} */
 
 		#top h1 {
 			margin-top: 0.35em;
@@ -2234,6 +2235,12 @@ input, select, textarea {
 
 				#top .image {
 					margin: 0 auto 2em auto;
+				}
+
+				.image .fit {
+					display: flex;
+					align-items: center;
+					justify-content: center;
 				}
 
 	}

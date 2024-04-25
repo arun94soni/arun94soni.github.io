@@ -1,0 +1,241 @@
+/* Reset and basic styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Default Styles */
+body {
+    background-color: #f4f4f4;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+/* Navigation */
+#nav {
+    background-color: #333333;
+    padding: 10px 0;
+}
+
+#nav ul {
+    text-align: center;
+}
+
+#nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#nav ul li a:hover {
+    color: #cccccc;
+}
+
+/* Home Section */
+.wrapper.style1 {
+    background-color: #333333;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+.tagline {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Skills Section */
+.wrapper.style2 {
+    padding: 80px 0;
+}
+
+.skill-box {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.skill-box img {
+    max-width: 100px;
+}
+
+.skill-box h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* CV Section */
+#cv {
+    padding: 80px 0;
+}
+
+.cv-download {
+    text-align: center;
+}
+
+/* Projects Section */
+.wrapper.style3 {
+    padding: 80px 0;
+}
+
+.project-box {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.project-box img {
+    max-width: 100%;
+}
+
+.project-box h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.wrapper.style4 {
+    background-color: #333333;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social li a {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.social li a:hover {
+    color: #cccccc;
+}
+
+/* Footer */
+.wrapper.style4 footer {
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+    #nav ul li {
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .wrapper.style1 {
+        padding: 80px 0;
+    }
+    .tagline {
+        font-size: 16px;
+    }
+    .skill-box {
+        padding: 20px;
+    }
+    .skill-box img {
+        max-width: 80px;
+    }
+    .skill-box h3 {
+        font-size: 20px;
+    }
+    .project-box {
+        padding: 20px;
+    }
+    .project-box h3 {
+        font-size: 20px;
+    }
+    .social li a {
+        font-size: 20px;
+    }
+    .wrapper.style4 {
+        padding: 60px 0;
+    }
+    .wrapper.style4 footer {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+}
